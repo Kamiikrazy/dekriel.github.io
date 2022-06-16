@@ -1,0 +1,38 @@
+<html>
+    <style>
+        p {
+            font-family: consolas;
+        }
+
+        .button {
+          background-color: #595959;
+          border: none;
+          color: white;
+          padding: 5px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 30px 2px;
+          cursor: pointer;
+          font-family: consolas;
+        }
+
+    </style>
+    <body style="background-color:black;">
+            <center><img src="scp.png" height="600" width="1100"></center>
+         <div>
+             <center><p style="color:white;">enter authorization password:</p></center>
+             <center><input style="width:300px;" type="password" id="pass" name="password" required width="10"></center>
+             <center><button onclick="return1();" class="button button4">Submit</button></center>
+             <script>
+                    function return1()
+                    {
+                        window.location.href = 'home.html';
+                        return false;
+                    }
+             </script>
+         </div>
+
+    </body>
+</html>
